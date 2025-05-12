@@ -1,0 +1,134 @@
+/* Custom Fonts */
+@font-face {
+  font-family: 'Flick Demo';
+  src: url('assets/Flick-Demo-BF6582532893799.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Darker Grotesque';
+  src: url('assets/DarkerGrotesque-Regular.ttf') format('truetype');
+}
+
+/* === Global Styles === */
+body {
+  font-family: 'Darker Grotesque', sans-serif;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6,
+.navbar-brand,
+.btn,
+.card-title {
+  font-family: 'Flick Demo';
+}
+
+/* === Navbar === */
+.navbar {
+  background-color: #01161E;
+}
+
+.navbar .nav-link {
+  color: #ffffff;
+  font-size: 25px;
+  padding: 0.5rem 1rem;
+  transition: color 0.3s;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+  color: #B45748 !important;
+}
+
+.btn-outline-light {
+  width: 150px;
+  height: 45px;
+  font-size: 25px;
+  background-color: #ffffff;
+  color: #1B2033;
+}
+
+.btn-outline-light:hover {
+  background-color: #B45748;
+  color: #fff;
+}
+
+/* === Hero Section === */
+.hero-section {
+  background-image: url('assets/home page img 1.png');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.hero-section .container {
+  padding-top: 160px; /* Moves title lower */
+}
+
+.hero-section h1 {
+  font-size: 120px;
+}
+
+/* === Car Collection Section === */
+.car-collection-img {
+  margin-bottom: -240px; /* To move car image lower */
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+section.bg-dark h2 {
+  font-size: 90px;
+}
+
+section.bg-dark p {
+  font-size: 25px;
+}
+
+.btn-light {
+  background-color: #fff;
+  color: #000;
+  font-family: 'Darker Grotesque';
+  font-size: 25px;
+  transition: background-color 0.3s;
+}
+
+.btn-light:hover {
+  background-color: #f25b4c;
+  color: white;
+}
+
+/* === Oscar J Ruelas Section === */
+section.bg-light h2 {
+  font-size: 90px;
+}
+
+section.bg-light p {
+  font-size: 25px;
+}
+
+/* === Car News Section === */
+.car-news-section {
+  background-image: url('assets/home page img 3.png');
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* === Footer === */
+footer {
+  background-color: #01161E;
+  font-size: 20px;
+}
+
+footer img {
+  width: 90px;
+  height: auto;
+}
