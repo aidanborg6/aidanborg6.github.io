@@ -1,0 +1,113 @@
+/* Custom Fonts */
+@font-face {
+    font-family: 'Flick Demo';
+    src: url('assets/Flick-Demo-BF6582532893799.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Darker Grotesque';
+    src: url('assets/DarkerGrotesque-Regular.ttf') format('truetype');
+  }  
+  
+/* The navbar was appering gray because it was using the Bootstrap class bg-dark, which defaults to a gray-black color—not my custom dark blue */
+.custom-navbar {
+    background-color: #01161E !important;
+  }
+  
+
+/* Global Font */
+body,
+p,
+.navbar,
+.nav-link,
+h1, h2, h3, h4, h5, h6,
+.btn,
+.btn-outline-light,
+.btn-primary {
+  font-family: 'Darker Grotesque', sans-serif !important;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #01161E;
+  }
+  
+  .navbar .nav-link {
+    color: #ffffff;
+    font-size: 25px;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s;
+  }
+  
+  .navbar .nav-link:hover,
+  .navbar .nav-link.active {
+    color: #B45748 !important;
+  }
+  
+  .btn-outline-light {
+    width: 150px;
+    height: 45px;
+    font-size: 25px;
+    background-color: #ffffff;
+    color: #1B2033;
+  }
+  
+  .btn-outline-light:hover {
+    background-color: #B45748;
+    color: #fff;
+  }
+  
+/* Title - only this uses Lalezar */
+.car-title {
+  font-family: 'Lalezar', cursive;
+  font-size: 3rem;
+  color: #01161E;
+}
+
+/* Carousel */
+.carousel-img {
+  max-height: 60vh;
+  object-fit: cover;
+  object-position: center;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(1, 22, 30, 0.6);
+  border-radius: 50%;
+}
+
+/* Specs Section */
+.specs p {
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  color: #01161E;
+}
+
+/* Buttons */
+.navbar .btn.btn-outline-light {
+    font-family: 'Flick Demo', cursive !important;
+    font-size: 28px;
+    width: 160px;
+    height: 50px;
+    background-color: #ffffff;
+    color: #1B2033;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 30px;
+  }
+  
+  .navbar .btn.btn-outline-light:hover {
+    background-color: #B45748;
+    color: #fff;
+  }
+  
+.btn-primary:hover {
+  background-color: #9e463b;
+  border-color: #9e463b;
+}
+
+
