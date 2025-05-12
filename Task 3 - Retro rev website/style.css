@@ -126,8 +126,9 @@ section.bg-light p {
 footer {
   background-color: #01161E;
   font-size: 20px;
+  border-style: solid;
+  border-color: #B45748;
 }
-
 footer img {
   width: 90px;
   height: auto;
