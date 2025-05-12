@@ -1,0 +1,72 @@
+@import url('style.css'); /* optional global styles */
+
+
+/* The navbar was appering gray because it was using the Bootstrap class bg-dark, which defaults to a gray-black color—not my custom dark blue */
+.custom-navbar {
+    background-color: #01161E !important;
+  }
+  
+
+/* Hero Section */
+.collection-hero {
+  background: linear-gradient(to right, #01161E, rgba(0, 0, 0, 0)),
+              url('assets/collection\ page\ img\ 1.png') no-repeat center center;
+  background-size: cover;
+  height: 60vh;
+  padding: 4rem 2rem;
+}
+
+.collection-hero h1 {
+  font-size: 4rem;
+}
+
+.collection-hero p {
+  font-size: 1.25rem;
+  max-width: 600px;
+  margin-top: 1rem;
+}
+
+/* Card Hover Effects */
+.hover-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    font-family: 'Lalezar', cursive;
+}  
+
+/* Responsive Text Adjustments */
+@media (max-width: 768px) {
+  .collection-hero h1 {
+    font-size: 120px;
+  }
+
+  .collection-hero p {
+    font-size: 200rem;
+  }
+}
+
+.card-title {
+    font-family: 'Lalezar', cursive;
+  }
+  
+/* Card buttons */
+  .card .btn-primary {
+    background-color: #B45748;
+    color: #ffffff;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-weight: 12;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .card .btn-primary:hover {
+    background-color: #a0473e; /* slightly darker shade for hover */
+    color: #ffffff;
+  }
+  
