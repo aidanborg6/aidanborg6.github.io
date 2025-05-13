@@ -1,0 +1,133 @@
+/* Custom Fonts */
+@font-face {
+    font-family: 'Flick Demo';
+    src: url('assets/Flick-Demo-BF6582532893799.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Darker Grotesque';
+    src: url('assets/DarkerGrotesque-Regular.ttf') format('truetype');
+  }  
+
+/* The navbar was appering gray because it was using the Bootstrap class bg-dark, which defaults to a gray-black color—not my custom dark blue */
+.custom-navbar {
+    background-color: #01161E !important;
+  }
+/* HERO SECTION */
+.news-hero {
+  background: linear-gradient(to right, #01161E, rgba(0, 0, 0, 0.4)),
+              url('assets/car\ news.png') center center no-repeat;
+  background-size: cover;
+  height: 65vh;
+  padding: 4rem 2rem;
+}
+
+.news-hero h1 {
+  font-size: 120px;
+  font-family: 'Flick Demo', cursive !important;
+}
+
+.news-hero p {
+    font-size: 20px;
+    max-width: 600px;
+    margin-top: 1rem;
+  }
+
+/* Card Styling */
+.hover-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.hover-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+  font-family: 'Lalezar', cursive;
+  font-size: 2rem;
+}
+
+.card-text {
+  font-family: 'Darker Grotesque', sans-serif;
+}
+
+.object-fit-cover {
+  object-fit: cover;
+  height: 100%;
+}
+
+.line2{
+    font-family: 'Flick Demo', cursive !important;
+    font-size: 80px;
+}
+
+/* Buttons */
+.card .btn-primary {
+  background-color: #B45748;
+  color: #ffffff;
+  font-family: 'Darker Grotesque', sans-serif;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.card .btn-primary:hover {
+  background-color: #a0473e;
+  color: #ffffff;
+}
+
+/* Footer */
+footer img {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Responsive Tweaks */
+@media (max-width: 768px) {
+  .news-hero h1 {
+    font-family: flick demo;
+    font-size: 60px;
+  }
+
+  .card-body {
+    padding: 2rem;
+  }
+}
+
+.navbar {
+    background-color: #01161E;
+  }
+  
+  .navbar .nav-link {
+    color: #ffffff;
+    font-size: 25px;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s;
+    font-family: 'Darker Grotesque', sans-serif !important;
+  }
+  
+  .navbar .nav-link:hover,
+  .navbar .nav-link.active {
+    color: #B45748 !important;
+  }
+  
+  .navbar .btn.btn-outline-light {
+    font-family: 'Flick Demo', cursive !important;
+    font-size: 28px;
+    width: 160px;
+    height: 50px;
+    background-color: #ffffff;
+    color: #1B2033;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 30px;
+  }
+  
+  .navbar .btn.btn-outline-light:hover {
+    background-color: #B45748;
+    color: #fff;
+  }
+  
+
