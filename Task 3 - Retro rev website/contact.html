@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us | Retro Rev</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Lalezar&family=Fjalla+One&display=swap" rel="stylesheet" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="contact.css" />
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg py-3 px-4 custom-navbar navbar-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand d-flex align-items-center" href="home.html">
+      <img src="assets/logo.png" alt="Retro Rev Logo" width="170" class="me-2" />
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item mx-2"><a class="nav-link" href="home.html">HOME</a></li>
+        <li class="nav-item mx-2"><a class="nav-link" href="about.html">ABOUT</a></li>
+        <li class="nav-item mx-2"><a class="nav-link" href="collection.html">COLLECTION</a></li>
+        <li class="nav-item mx-2"><a class="nav-link" href="news.html">NEWS</a></li>
+      </ul>
+      <a href="contact.html" class="btn btn-outline-light rounded-pill px-3 active-btn">CONTACT US</a>
+    </div>
+  </div>
+</nav>
+
+<!-- CONTACT SECTION -->
+<section class="contact-section py-5">
+  <div class="container">
+    <div class="row align-items-start">
+      <div class="col-md-6 mb-4">
+        <h1 class="connect-title">LET’S<br>CONNECT</h1>
+      </div>
+      <div class="col-md-6">
+        <h3 class="form-title mb-4">Contact Us</h3>
+        <form action="#" method="POST">
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" id="name" name="name" class="form-control custom-input" placeholder="Enter Name" required />
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" id="email" name="email" class="form-control custom-input" placeholder="Enter Email" required />
+          </div>
+          <div class="mb-3">
+            <label for="subject" class="form-label">Subject</label>
+            <input type="text" id="subject" name="subject" class="form-control custom-input" placeholder="Enter Subject" required />
+          </div>
+          <div class="mb-4">
+            <label for="message" class="form-label">Message</label>
+            <textarea id="message" name="message" rows="5" class="form-control custom-input" placeholder="Please enter query" required></textarea>
+          </div>
+          <button type="submit" class="btn submit-btn">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- FOOTER -->
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+          <div class="mb-2 d-flex justify-content-center align-items-center">
+            <img src="assets/logo.png" alt="Retro Rev Footer Logo" width="80" />
+          </div>
+          <small>
+            © 2025 Retro Rev. All rights reserved. | Designed with passion for classic car enthusiasts.
+          </small>
+        </div>
+      </footer>
+  
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
