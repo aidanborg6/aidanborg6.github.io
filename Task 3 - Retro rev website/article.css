@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'Flick Demo';
+    src: url('assets/Flick-Demo-BF6582532893799.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Darker Grotesque';
+    src: url('assets/DarkerGrotesque-Regular.ttf') format('truetype');
+  }
+  
+  /* NAVBAR STYLES */
+  .custom-navbar {
+    background-color: #01161E !important;
+  }
+  
+  .navbar {
+    background-color: #01161E;
+  }
+  
+  .navbar .nav-link {
+    color: #ffffff;
+    font-size: 25px;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s;
+    font-family: 'Darker Grotesque', sans-serif !important;
+  }
+  
+  .navbar .nav-link:hover,
+  .navbar .nav-link.active {
+    color: #B45748 !important;
+  }
+  
+  .navbar .btn.btn-outline-light {
+    font-family: 'Flick Demo', cursive !important;
+    font-size: 28px;
+    width: 160px;
+    height: 50px;
+    background-color: #ffffff;
+    color: #1B2033;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 30px;
+  }
+  
+  .navbar .btn.btn-outline-light:hover {
+    background-color: #B45748;
+    color: #fff;
+  }
+  
+  /* ARTICLE STYLES */
+  .article-title {
+    font-family: 'Lalezar', cursive;
+    font-size: 3rem;
+    line-height: 1.2;
+  }
+  
+  .article-date {
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 25px;
+  }
+  
+  .article-img {
+    max-height: 600px;
+    object-fit: cover;
+    width: 100%;
+  }
+  
+  .article-paragraph {
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 24px;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* FOOTER */
+  footer img {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* RESPONSIVE TWEAKS */
+  @media (max-width: 768px) {
+    .article-title {
+      font-size: 2rem;
+    }
+  
+    .navbar .btn.btn-outline-light {
+      font-size: 22px;
+      width: 130px;
+      height: 45px;
+    }
+  }
+
+  /* === Footer === */
+footer {
+    background-color: #01161E;
+    font-size: 15px;
+    border-style: solid;
+    border-color: #B45748;
+  }
+  footer img {
+    width: 90px;
+    height: auto;
+  }

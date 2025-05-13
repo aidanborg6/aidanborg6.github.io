@@ -130,4 +130,14 @@ footer img {
     color: #fff;
   }
   
-
+/* === Footer === */
+footer {
+  background-color: #01161E;
+  font-size: 15px;
+  border-style: solid;
+  border-color: #B45748;
+}
+footer img {
+  width: 90px;
+  height: auto;
+}
