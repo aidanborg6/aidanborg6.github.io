@@ -46,42 +46,62 @@
       </div>
       <div class="col-md-6">
         <h3 class="form-title mb-4">Contact Us</h3>
-        <form action="#" method="POST">
+        <form action="mailto:aidanborg5@gmail.com" method="post" enctype="text/plain">
+
           <div class="mb-3">
-            <label for="name" class="form-label">Name</label>
-            <input type="text" id="name" name="name" class="form-control custom-input" placeholder="Enter Name" required />
+            <label for="firstName" class="form-label">First Name</label>
+            <input type="text" id="firstName" name="First Name" class="form-control custom-input" placeholder="Enter First Name" required />
           </div>
+
+          <div class="mb-3">
+            <label for="lastName" class="form-label">Last Name</label>
+            <input type="text" id="lastName" name="Last Name" class="form-control custom-input" placeholder="Enter Last Name" required />
+          </div>
+
           <div class="mb-3">
             <label for="email" class="form-label">Email</label>
-            <input type="email" id="email" name="email" class="form-control custom-input" placeholder="Enter Email" required />
+            <input type="email" id="email" name="Email" class="form-control custom-input" placeholder="Enter Email" required />
           </div>
+
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="offers" name="Subscribe to Offers" />
+            <label for="offers" class="form-check-label">Contact me about new offers</label>
+          </div>
+
           <div class="mb-3">
-            <label for="subject" class="form-label">Subject</label>
-            <input type="text" id="subject" name="subject" class="form-control custom-input" placeholder="Enter Subject" required />
+            <label for="department" class="form-label">Department</label>
+            <select name="Department" id="department" class="form-select custom-input" required>
+              <option value="" disabled selected>Please select department</option>
+              <option value="Customer Support">Customer Support</option>
+              <option value="Technical Support">Technical Support</option>
+            </select>
           </div>
+
           <div class="mb-4">
             <label for="message" class="form-label">Message</label>
-            <textarea id="message" name="message" rows="5" class="form-control custom-input" placeholder="Please enter query" required></textarea>
+            <textarea id="message" name="Message" class="form-control custom-input" placeholder="Please enter query" rows="5"></textarea>
           </div>
-          <button type="submit" class="btn submit-btn">Submit</button>
+
+          <button type="submit" class="btn submit-btn me-2">Send</button>
+          <button type="reset" class="btn btn-secondary">Cancel</button>
+
         </form>
       </div>
     </div>
   </div>
 </section>
 
-    <!-- FOOTER -->
-    <footer class="bg-dark text-white text-center py-4">
-        <div class="container">
-          <div class="mb-2 d-flex justify-content-center align-items-center">
-            <img src="assets/logo.png" alt="Retro Rev Footer Logo" width="80" />
-          </div>
-          <small>
-            © 2025 Retro Rev. All rights reserved. | Designed with passion for classic car enthusiasts.
-          </small>
-        </div>
-      </footer>
-  
+<!-- FOOTER -->
+<footer class="bg-dark text-white text-center py-4">
+  <div class="container">
+    <div class="mb-2 d-flex justify-content-center align-items-center">
+      <img src="assets/logo.png" alt="Retro Rev Footer Logo" width="80" />
+    </div>
+    <small>
+      © 2025 Retro Rev. All rights reserved. | Designed with passion for classic car enthusiasts.
+    </small>
+  </div>
+</footer>
 
 <!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
